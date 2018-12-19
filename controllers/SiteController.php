@@ -48,13 +48,10 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-<<<<<<< HEAD
     public function actionAbout()
     {
         return $this->render('about');
     }
-=======
->>>>>>> 7be3983067c2129c91b315a4fbd9bc47ecc139ed
 
     public function actionSignup() {
         if (!Yii::$app->user->isGuest) {
@@ -84,7 +81,6 @@ class SiteController extends Controller
         return $this->render('signin');
     }
 
-<<<<<<< HEAD
     public function actionEvents() {
         $allEvents = Events::find()
                     ->all();
@@ -193,8 +189,6 @@ class SiteController extends Controller
         ]);
     }
 
-=======
->>>>>>> 7be3983067c2129c91b315a4fbd9bc47ecc139ed
     public function actionAuth() {
         $request = Yii::$app->request;
 
