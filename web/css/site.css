@@ -1,0 +1,117 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  height: 150px;
+  padding: 1% 1%;
+}
+
+.logo {
+  float: left;
+}
+
+.login-box {
+  text-align: right;
+  margin-top: -5em;
+}
+
+.username {
+  font-size: 2em;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 60px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #555;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px 20px;
+  cursor: pointer;
+}
+
+.small {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.menu h3, .menu p {
+  text-align: justify;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.sign_form {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sign_form label {
+  display: block;
+  width: 10px;
+}
+
+.wrapper {
+  margin: 5%;
+  text-align: center;
+}
+
+.text-logo {
+  text-align: center;
+  font-size: 30px;
+}
+
+.popup {
+  background-color: white;
+  border: 2px solid #555;
+  position: absolute;
+  color: black;
+  width: 600px;
+  height: 300px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.control-label {
+  display: inline-block;
+  width: 7em;
+}
+
+table {
+  max-width: 960px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table td, table th{
+  border: 2px solid grey;
+  padding: 5px 10px;
+}

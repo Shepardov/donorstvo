@@ -1,0 +1,22 @@
+<?php
+
+namespace app\controllers;
+
+use yii\web\Controller;
+use yii\data\Pagination;
+use app\models\Users;
+
+class UsersController extends Controller
+{
+    public function actionIndex()
+    {
+        $query = Users::find();
+
+        $users = $query->orderBy('Login')
+            ->all();
+
+        return $this->render('test', [
+            'users' => $users,
+        ]);
+    }
+}
